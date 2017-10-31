@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		282ED3941F7F8BC70066CA97 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ED3931F7F8BC70066CA97 /* LeftTableViewController.m */; };
+		282ED3971F7F8BD30066CA97 /* RightTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282ED3961F7F8BD30066CA97 /* RightTableViewController.m */; };
 		28837E441F7DE03700C26901 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28837E431F7DE03700C26901 /* main.m */; };
 		28837E471F7DE03700C26901 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28837E461F7DE03700C26901 /* AppDelegate.m */; };
 		28837E4A1F7DE03700C26901 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28837E491F7DE03700C26901 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		282ED3921F7F8BC70066CA97 /* LeftTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		282ED3931F7F8BC70066CA97 /* LeftTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
+		282ED3951F7F8BD30066CA97 /* RightTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RightTableViewController.h; sourceTree = "<group>"; };
+		282ED3961F7F8BD30066CA97 /* RightTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RightTableViewController.m; sourceTree = "<group>"; };
 		28837E3F1F7DE03700C26901 /* MutipleTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MutipleTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28837E431F7DE03700C26901 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		28837E451F7DE03700C26901 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -105,6 +111,10 @@
 				28837E461F7DE03700C26901 /* AppDelegate.m */,
 				28837E481F7DE03700C26901 /* ViewController.h */,
 				28837E491F7DE03700C26901 /* ViewController.m */,
+				282ED3921F7F8BC70066CA97 /* LeftTableViewController.h */,
+				282ED3931F7F8BC70066CA97 /* LeftTableViewController.m */,
+				282ED3951F7F8BD30066CA97 /* RightTableViewController.h */,
+				282ED3961F7F8BD30066CA97 /* RightTableViewController.m */,
 				28837E4B1F7DE03700C26901 /* Main.storyboard */,
 				28837E4E1F7DE03700C26901 /* Assets.xcassets */,
 				28837E501F7DE03700C26901 /* LaunchScreen.storyboard */,
@@ -278,7 +288,9 @@
 			files = (
 				28837E4A1F7DE03700C26901 /* ViewController.m in Sources */,
 				28837E471F7DE03700C26901 /* AppDelegate.m in Sources */,
+				282ED3941F7F8BC70066CA97 /* LeftTableViewController.m in Sources */,
 				28837E441F7DE03700C26901 /* main.m in Sources */,
+				282ED3971F7F8BD30066CA97 /* RightTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -432,7 +444,7 @@
 				DEVELOPMENT_TEAM = 66823A446U;
 				INFOPLIST_FILE = MutipleTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.youqu.MutipleTableView.MutipleTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.youqu.MutipleTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -444,7 +456,7 @@
 				DEVELOPMENT_TEAM = 66823A446U;
 				INFOPLIST_FILE = MutipleTableView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.youqu.MutipleTableView.MutipleTableView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.youqu.MutipleTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -518,6 +530,7 @@
 				28837E6E1F7DE03800C26901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28837E6F1F7DE03800C26901 /* Build configuration list for PBXNativeTarget "MutipleTableViewTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +539,7 @@
 				28837E711F7DE03800C26901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		28837E721F7DE03800C26901 /* Build configuration list for PBXNativeTarget "MutipleTableViewUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +548,7 @@
 				28837E741F7DE03800C26901 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
