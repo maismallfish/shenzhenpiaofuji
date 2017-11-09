@@ -1,0 +1,6 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'NetWorkDemo' do
+pod 'AFNetworking'
+pod 'Masonry'
+end

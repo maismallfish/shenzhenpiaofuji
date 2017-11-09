@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0FB715A438130E8AD10C3929 /* libPods-NetWorkDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5741111C16E2B877F9702011 /* libPods-NetWorkDemo.a */; };
 		282A4B191FA8606A0040D9DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B181FA8606A0040D9DB /* AppDelegate.m */; };
 		282A4B1C1FA8606A0040D9DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B1B1FA8606A0040D9DB /* ViewController.m */; };
 		282A4B1F1FA8606A0040D9DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 282A4B1D1FA8606A0040D9DB /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		282A4B271FA8606A0040D9DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B261FA8606A0040D9DB /* main.m */; };
 		282A4B311FA8606A0040D9DB /* NetWorkDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B301FA8606A0040D9DB /* NetWorkDemoTests.m */; };
 		282A4B3C1FA8606A0040D9DB /* NetWorkDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B3B1FA8606A0040D9DB /* NetWorkDemoUITests.m */; };
+		282A4B4C1FA8737C0040D9DB /* BaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 282A4B4B1FA8737C0040D9DB /* BaseDataSource.m */; };
+		28A11F681FB3F24500A28A91 /* AFNetWorkingDemoDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 28A11F671FB3F24500A28A91 /* AFNetWorkingDemoDataSource.m */; };
+		28BF25E61FAAC13A00C4A9FD /* AFNetWorkingDemoVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 28BF25E51FAAC13A00C4A9FD /* AFNetWorkingDemoVC.m */; };
+		28D7BC781FA9B32C007BC22D /* NSDictionary+NativeJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7BC771FA9B32C007BC22D /* NSDictionary+NativeJSON.m */; };
+		28EAABCE1FB2A04F0071C092 /* AFBaseDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EAABCD1FB2A04F0071C092 /* AFBaseDataSource.m */; };
+		28EAABD11FB2DA830071C092 /* AFBaseSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EAABD01FB2DA830071C092 /* AFBaseSessionManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +58,21 @@
 		282A4B371FA8606A0040D9DB /* NetWorkDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NetWorkDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		282A4B3B1FA8606A0040D9DB /* NetWorkDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetWorkDemoUITests.m; sourceTree = "<group>"; };
 		282A4B3D1FA8606A0040D9DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282A4B4A1FA8737C0040D9DB /* BaseDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseDataSource.h; sourceTree = "<group>"; };
+		282A4B4B1FA8737C0040D9DB /* BaseDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseDataSource.m; sourceTree = "<group>"; };
+		28A11F661FB3F24500A28A91 /* AFNetWorkingDemoDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetWorkingDemoDataSource.h; sourceTree = "<group>"; };
+		28A11F671FB3F24500A28A91 /* AFNetWorkingDemoDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingDemoDataSource.m; sourceTree = "<group>"; };
+		28BF25E41FAAC13A00C4A9FD /* AFNetWorkingDemoVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetWorkingDemoVC.h; sourceTree = "<group>"; };
+		28BF25E51FAAC13A00C4A9FD /* AFNetWorkingDemoVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetWorkingDemoVC.m; sourceTree = "<group>"; };
+		28D7BC761FA9B32B007BC22D /* NSDictionary+NativeJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NativeJSON.h"; sourceTree = "<group>"; };
+		28D7BC771FA9B32C007BC22D /* NSDictionary+NativeJSON.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NativeJSON.m"; sourceTree = "<group>"; };
+		28EAABCC1FB2A04F0071C092 /* AFBaseDataSource.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBaseDataSource.h; sourceTree = "<group>"; };
+		28EAABCD1FB2A04F0071C092 /* AFBaseDataSource.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseDataSource.m; sourceTree = "<group>"; };
+		28EAABCF1FB2DA830071C092 /* AFBaseSessionManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFBaseSessionManager.h; sourceTree = "<group>"; };
+		28EAABD01FB2DA830071C092 /* AFBaseSessionManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFBaseSessionManager.m; sourceTree = "<group>"; };
+		5741111C16E2B877F9702011 /* libPods-NetWorkDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NetWorkDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13E6C729529DBABA87863A3 /* Pods-NetWorkDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWorkDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-NetWorkDemo/Pods-NetWorkDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		FD758DA62415B6F8AE36F40C /* Pods-NetWorkDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NetWorkDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-NetWorkDemo/Pods-NetWorkDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FB715A438130E8AD10C3929 /* libPods-NetWorkDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +108,8 @@
 				282A4B2F1FA8606A0040D9DB /* NetWorkDemoTests */,
 				282A4B3A1FA8606A0040D9DB /* NetWorkDemoUITests */,
 				282A4B151FA8606A0040D9DB /* Products */,
+				684A804173B40DA5829FC212 /* Pods */,
+				493E37E4715CF2DA75278B8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +126,8 @@
 		282A4B161FA8606A0040D9DB /* NetWorkDemo */ = {
 			isa = PBXGroup;
 			children = (
+				28BF25E31FAAC11100C4A9FD /* Demo */,
+				282A4B491FA873010040D9DB /* DataSource */,
 				282A4B171FA8606A0040D9DB /* AppDelegate.h */,
 				282A4B181FA8606A0040D9DB /* AppDelegate.m */,
 				282A4B1A1FA8606A0040D9DB /* ViewController.h */,
@@ -132,6 +159,49 @@
 			path = NetWorkDemoUITests;
 			sourceTree = "<group>";
 		};
+		282A4B491FA873010040D9DB /* DataSource */ = {
+			isa = PBXGroup;
+			children = (
+				28D7BC761FA9B32B007BC22D /* NSDictionary+NativeJSON.h */,
+				28D7BC771FA9B32C007BC22D /* NSDictionary+NativeJSON.m */,
+				282A4B4A1FA8737C0040D9DB /* BaseDataSource.h */,
+				282A4B4B1FA8737C0040D9DB /* BaseDataSource.m */,
+				28EAABCC1FB2A04F0071C092 /* AFBaseDataSource.h */,
+				28EAABCD1FB2A04F0071C092 /* AFBaseDataSource.m */,
+				28EAABCF1FB2DA830071C092 /* AFBaseSessionManager.h */,
+				28EAABD01FB2DA830071C092 /* AFBaseSessionManager.m */,
+			);
+			path = DataSource;
+			sourceTree = "<group>";
+		};
+		28BF25E31FAAC11100C4A9FD /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				28BF25E41FAAC13A00C4A9FD /* AFNetWorkingDemoVC.h */,
+				28BF25E51FAAC13A00C4A9FD /* AFNetWorkingDemoVC.m */,
+				28A11F661FB3F24500A28A91 /* AFNetWorkingDemoDataSource.h */,
+				28A11F671FB3F24500A28A91 /* AFNetWorkingDemoDataSource.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		493E37E4715CF2DA75278B8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5741111C16E2B877F9702011 /* libPods-NetWorkDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		684A804173B40DA5829FC212 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C13E6C729529DBABA87863A3 /* Pods-NetWorkDemo.debug.xcconfig */,
+				FD758DA62415B6F8AE36F40C /* Pods-NetWorkDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +209,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 282A4B401FA8606A0040D9DB /* Build configuration list for PBXNativeTarget "NetWorkDemo" */;
 			buildPhases = (
+				270EDA3AF876BE96369D2FEB /* [CP] Check Pods Manifest.lock */,
 				282A4B101FA8606A0040D9DB /* Sources */,
 				282A4B111FA8606A0040D9DB /* Frameworks */,
 				282A4B121FA8606A0040D9DB /* Resources */,
+				9582C9B0C3DFA35F74A0BDFD /* [CP] Embed Pods Frameworks */,
+				3285007A034D4BCF1CDFE8C7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +333,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		270EDA3AF876BE96369D2FEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NetWorkDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3285007A034D4BCF1CDFE8C7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWorkDemo/Pods-NetWorkDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9582C9B0C3DFA35F74A0BDFD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-NetWorkDemo/Pods-NetWorkDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		282A4B101FA8606A0040D9DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				282A4B1C1FA8606A0040D9DB /* ViewController.m in Sources */,
+				282A4B4C1FA8737C0040D9DB /* BaseDataSource.m in Sources */,
+				28A11F681FB3F24500A28A91 /* AFNetWorkingDemoDataSource.m in Sources */,
+				28EAABD11FB2DA830071C092 /* AFBaseSessionManager.m in Sources */,
+				28BF25E61FAAC13A00C4A9FD /* AFNetWorkingDemoVC.m in Sources */,
+				28EAABCE1FB2A04F0071C092 /* AFBaseDataSource.m in Sources */,
 				282A4B271FA8606A0040D9DB /* main.m in Sources */,
 				282A4B191FA8606A0040D9DB /* AppDelegate.m in Sources */,
+				28D7BC781FA9B32C007BC22D /* NSDictionary+NativeJSON.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,11 +558,13 @@
 		};
 		282A4B411FA8606A0040D9DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13E6C729529DBABA87863A3 /* Pods-NetWorkDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66823A446U;
 				INFOPLIST_FILE = NetWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.NetWorkDemo.NetWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -442,11 +574,13 @@
 		};
 		282A4B421FA8606A0040D9DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD758DA62415B6F8AE36F40C /* Pods-NetWorkDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66823A446U;
 				INFOPLIST_FILE = NetWorkDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fiberhome.test.NetWorkDemo.NetWorkDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
