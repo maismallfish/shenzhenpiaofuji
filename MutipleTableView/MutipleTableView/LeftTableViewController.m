@@ -44,6 +44,7 @@
     if (!cell) {
         cell = [[UITableViewCell alloc] init];
     }
+    cell.textLabel.text = [NSString stringWithFormat:@"Left%i",indexPath.row];
     cell.backgroundColor = [UIColor greenColor];
     return cell;
 }

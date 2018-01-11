@@ -23,6 +23,7 @@
     self.leftVC = [[UIStoryboard storyboardWithName:@"Main" bundle:nil] instantiateViewControllerWithIdentifier:@"left"];
     __weak __typeof(self) weakSelf = self;
     [self.leftVC setLeftCellClickBlock:^(NSInteger selectIndex, NSString *categoryName) {
+        weakSelf.rightVC.selectIndex = selectIndex;
         [weakSelf.rightVC.tableView reloadData];
     }];
     [self.leftView addSubview:self.leftVC.view];

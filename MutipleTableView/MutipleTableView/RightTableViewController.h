@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface RightTableViewController : UITableViewController
+@property (nonatomic,assign) NSInteger selectIndex;
 - (void)viewWillAppear:(BOOL)animated ;
 @end
