@@ -5,9 +5,10 @@
 //  Created by wuyine on 2017/11/2.
 //  Copyright © 2017年 wuyine. All rights reserved.
 //
-
 #import "AFNetWorkingDemoVC.h"
 #import "AFNetWorkingDemoDataSource.h"
+
+#import "AFURLSessionManager.h"
 
 @interface AFNetWorkingDemoVC ()<UIActionSheetDelegate,UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 @property (nonatomic,strong) AFNetWorkingDemoDataSource *dataSource;
@@ -61,6 +62,33 @@
 }
 
 - (IBAction)download:(id)sender {
+//    // 快捷方式获得session对象
+//    NSURLSession *session = [NSURLSession sharedSession];
+//    NSURL *url = [NSURL URLWithString:@"http://www.daka.com/login?username=daka&pwd=123"];
+//    // 通过URL初始化task,在block内部可以直接对返回的数据进行处理
+//    NSURLSessionTask *task = [session dataTaskWithURL:url
+//                                    completionHandler:^(NSData *data, NSURLResponse *response, NSError *error) {
+//                                        NSLog(@"%@", [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:nil]);
+//                                    }];
+//
+//    // 启动任务
+//    [task resume];
+    
+    // step1. 初始化AFURLSessionManager对象
+    NSURLSessionConfiguration *configuration = [NSURLSessionConfiguration defaultSessionConfiguration];
+    AFURLSessionManager *manager = [[AFURLSessionManager alloc] initWithSessionConfiguration:configuration];
+    
+    // step2. 获取AFURLSessionManager的task对象
+    NSURLSessionDataTask *dataTask = [manager dataTaskWithRequest:request completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
+        if (error) {
+            NSLog(@"Error: %@", error);
+        } else {
+            NSLog(@"Get Net data success!");
+        }
+    }];
+    
+    // step3. 发动task
+    [dataTask resume];
 }
 
 #pragma mark -- UIImagePickerController Delegate
